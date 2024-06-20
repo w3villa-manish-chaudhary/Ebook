@@ -8,9 +8,11 @@ body {
     margin-right: 1rem;
 }
 
-.logo {
-    font-size: 20px;
-    font-weight: 400;
+.logo img{
+    height: 55px;
+    width: 55px;
+    position:absolute;
+    top: 4.2px;
 }
 
 .byellow {
@@ -124,12 +126,14 @@ body {
     column-gap: 30px;
 }
 
-.authermain .rtextauther {
+.authermain .rtextauthor {
     max-width: 500px;
 }
 
 .authorimg {
     height: 390px;
+    filter: drop-shadow(16px 8px 18px gray);
+    
 }
 
 /* 6th section */
