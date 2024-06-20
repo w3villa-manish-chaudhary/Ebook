@@ -230,12 +230,70 @@ footer p {
     animation: blink .75s step-end infinite;
     animation-fill-mode: forwards;
     display: inline-block;
+    width: 0;
+
 }
 
 .rheading.finished::after {
     animation: none;
     border-color: transparent;
 }
+
+
+
+
+@media (max-width: 768px) {
+    .rheading {
+        font-size: 6.5vw;
+    }
+}
+
+@media (max-width: 480px) {
+    .rheading {
+        font-size: 8.5vw;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
