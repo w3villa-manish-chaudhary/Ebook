@@ -1,0 +1,320 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar-brand {
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.byellow {
+    color: black !important;
+    background-color: yellow;
+    padding: 8px;
+    border-radius: 4px;
+    width: 120px;
+}
+
+.bg-darkm {
+    background-color: hsl(48, 33%, 14%) !important;
+}
+
+/* 2nd section */
+
+.bgimg {
+    background: url('./img/images.jpeg') no-repeat center center/cover;
+    padding: 5rem 0;
+    position: relative;
+}
+
+.rheading {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.rtext {
+    max-width: 600px;
+}
+
+.rimg {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+.lbutton {
+    color: rgb(255, 255, 255);
+    background-color: hsla(0, 0%, 0%, 0.274);
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid white;
+    width: 120px;
+}
+
+.rightbutton {
+    display: flex;
+    gap: 20px;
+}
+
+.img-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img2 {
+    position: relative;
+    z-index: 0;
+    height: 495px;
+    width: 520px;
+}
+
+.img1 {
+    position: absolute;
+    top: 20px; 
+    left: 50px; 
+    z-index: 1;
+    transform: translateY(30%);
+}
+
+
+
+/* 3rd section */
+.ebook-features {
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+.ebook-features h2 {
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.ebook-features i {
+    margin-top: 50px;
+    color: #4a4c4eea;
+    border: 3px solid rgba(34, 33, 33, 0.842);
+    border-radius: 100px;
+    padding: 10px;
+}
+
+/* 4th section */
+.bg-yellow {
+    background-color: yellow;
+}
+
+.text-yellow {
+    color: yellow;
+}
+
+/* 5th section */
+.authermain {
+    margin-top: 100px;
+    column-gap: 30px;
+}
+
+.authermain .rtextauther {
+    max-width: 500px;
+}
+
+.authorimg {
+    height: 390px;
+}
+
+/* 6th section */
+.contactus {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info {
+    flex-basis: 22%;
+    margin-right: 10px;
+}
+
+.form {
+    flex-basis: 45%;
+}
+
+.form .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.form .col {
+    flex-basis: 50%;
+    padding-right: 10px;
+}
+
+.form .col:last-child {
+    padding-right: 0;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.submit {
+    background-color: hsl(0, 0%, 0%);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #333;
+}
+
+footer {
+    background-color: hsl(48, 33%, 14%);
+    color: #fff;
+    padding: 30px 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.none2 {
+    display: none;
+}
+
+@media (max-width: 1200px) {
+    .img2 {
+        height: 340px;
+        width: 390px;
+    }
+    .img1 {
+        top: 100px;
+        left: 40px;
+        transform: translateY(25%);
+    }
+}
+
+@media (max-width: 992px) {
+    .mainpart{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    
+    .img2 {
+        height: 300px;
+        width: 350px;
+    }
+    .img1 {
+        top: 105px;
+        left: 25px;
+        transform: translateY(10%);
+        
+    
+    }
+}
+
+
+
+@media (max-width: 576px) {
+    .img-container {
+        flex-direction: column;
+    }
+    .img2 {
+        height: 200px;
+        width: 250px;
+    }
+    .img1 {
+        display: block;
+        top: 0;
+        left: 25px;
+        transform: translateY(10%);
+    }
+}
+
+
+
+
+@media (max-width: 768px) {
+
+    .img-container {
+        flex-direction: column;
+    }
+    .img2 {
+        height: 350px;
+        width: 350px;
+    }
+    .img1 {
+        top: 135px;
+        left: 30px;
+        transform: translateY(15%);
+    }
+
+    .upperview {
+        position: fixed;
+        display: block;
+        text-align: center;
+        background-color: yellow;
+        color: black;
+        width: 100%;
+        z-index: 99;
+    }
+
+    .none1 {
+        display: none;
+    }
+
+    .fixed-top {
+        position: fixed;
+        top: 22px;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+
+    }
+
+    .bgimg {
+        text-align: center;
+    }
+
+    .rightbutton {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap:2px;
+    }
+
+    .rightbutton button {
+        width: 100%;
+        margin-top: 0.5rem;
+    }
+
+    .ebook-features i {
+        font-size: 2rem;
+    }
+
+
+    .form .col {
+        flex-basis: 100%;
+        padding-right: 0;
+    }
+
+}
+
