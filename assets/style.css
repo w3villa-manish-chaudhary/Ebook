@@ -258,6 +258,7 @@ footer p {
 
 @media (max-width: 768px) {
 
+
     .img-container {
         flex-direction: column;
     }
@@ -266,8 +267,8 @@ footer p {
         width: 350px;
     }
     .img1 {
-        top: 135px;
-        left: 30px;
+        top: 150px;
+        left: 12px;
         transform: translateY(15%);
     }
 
@@ -280,7 +281,7 @@ footer p {
         width: 100%;
         z-index: 99;
     }
-
+   
     .none1 {
         display: none;
     }
@@ -291,6 +292,7 @@ footer p {
         right: 0;
         left: 0;
         z-index: 1030;
+        width: 100%;
 
     }
 
@@ -318,6 +320,11 @@ footer p {
     .form .col {
         flex-basis: 100%;
         padding-right: 0;
+    }
+    .authorimg {
+        height: 390px;
+        filter: drop-shadow(4px 8px 10px gray);
+        
     }
 
 }
